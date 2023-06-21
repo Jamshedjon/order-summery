@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0e8ff;
+  background-image: url("../images/backround-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+}
+
+.wrapper-container {
+  max-width: 45rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0px 4rem 4rem -2rem rgba(13, 48, 189, 0.151826);
+}
+
+.wrapper-container-inner {
+  padding: 4.5rem 4.8rem 4.8rem;
+  text-align: center;
+}
+.wrapper-title {
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 3.7rem;
+  margin-bottom: 1.7rem;
+}
+.wrapper-text {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+
+  color: #717fa6;
+}
+.wrapper-annual-plan {
+  background-color: #f7f9ff;
+  padding: 2.5rem 2.4rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.1rem;
+  margin-bottom: 3.2rem;
+}
+.wrapper-annual-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  background-color: #dfe6fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.wrapper-anual-price {
+  margin-right: auto;
+}
+.wrapper-anual-price-title {
+  margin-bottom: 6px;
+  color: #1f2e55;
+  font-weight: 900;
+
+  line-height: 2.1rem;
+}
+.wrapper-anual-price-info {
+  color: #717fa6;
+  font-weight: 500;
+
+  line-height: 2.1rem;
+}
+.wrapper-anual-link {
+  color: #382ae1;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-decoration: underline;
+}
+.wrapper-anual-link:hover {
+  color: #766cf1;
+}
+.wrapper-container-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-container-payment-btn {
+  margin-bottom: 3.2rem;
+  background-color: #382ae1;
+  box-shadow: 0px 2rem 2rem rgba(56, 42, 255, 0.190291);
+  border-radius: 1.1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+.wrapper-container-payment-btn:hover {
+  background-color: #766cf1;
+  transition: 0.3s;
+}
+.wrapper-container-cancel-btn {
+  color: #717fa6;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.wrapper-container-cancel-btn:hover {
+  color: #1f2e55;
+  transition: 0.3s;
+}
